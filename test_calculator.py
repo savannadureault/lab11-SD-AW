@@ -1,3 +1,8 @@
+# https://github.com/savannadureault/lab11-SD-AW.git
+# Partner 1: Savanna Dureault
+# Partner 2: Abigail Welsh
+
+import math
 from unittest import TestCase
 from calculator import *
 
@@ -13,7 +18,7 @@ class test_calculator(TestCase):
         self.assertEqual(log(10, 3), 0)
 
     def test_hypotenuse(self):
-        self.assertEqual(hypotenuse(-1, -1), 1)
+        self.assertEqual(hypotenuse(1, 1), math.sqrt(2))
 
     def test_sqrt(self):
         self.assertEqual(square_root(1, 1), 1)

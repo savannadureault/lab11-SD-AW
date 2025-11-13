@@ -1,4 +1,6 @@
-# this is a test comment
+# https://github.com/savannadureault/lab11-SD-AW.git
+# Partner 1: Savanna Dureault
+# Partner 2: Abigail Welsh
 
 import math
 
