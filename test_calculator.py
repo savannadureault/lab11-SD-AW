@@ -1,7 +1,7 @@
-import unittest
+from unittest import TestCase
 from calculator import *
 
-class test_calculator(unittest.TestCase):
+class test_calculator(TestCase):
     def test_multiply(self):
         # This is a simple test case using the assertEqual method
         self.assertEqual(mul(2, 3), 6)
