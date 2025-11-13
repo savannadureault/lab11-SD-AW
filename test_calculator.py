@@ -18,9 +18,9 @@ class test_calculator(TestCase):
         self.assertEqual(log(10, 3), 0)
 
     def test_hypotenuse(self):
-        self.assertEqual(hypotenuse(1, 1), math.sqrt(2))
+        self.assertEqual(hypotenuse(1, 1), 1.4142135623730951)
 
     def test_sqrt(self):
-        self.assertEqual(square_root(1, 1), 1)
+        self.assertEqual(square_root(1), 1)
 
 

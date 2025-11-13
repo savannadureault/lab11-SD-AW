@@ -13,6 +13,7 @@ def hypotenuse(a, b):
     math.hypot(a, b) # can have negative nums
 
 
+
 def add(a, b):
     return (a + b)
 
